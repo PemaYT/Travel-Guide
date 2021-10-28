@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-image: url("travelpic.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.navLogo {
+    font-style: normal;
+    color: azure;
+    font-size: large;
+    padding-left: 1%;
+}
+
+.navMenu {
+    color: azure;
+    display: flex;
+    cursor: pointer;
+    padding-right: 1%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(235, 226, 228);
+    font-size: small;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: yellow;
+    border: yellow;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 5px 5px;
+}
+
+.divider {
+    width: 5px;
+}
