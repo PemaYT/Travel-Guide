@@ -31,6 +31,7 @@
     display: flex;
     cursor: pointer;
     padding-right: 1%;
+    word-spacing: 10px;
 }
 
 .center {
@@ -69,4 +70,72 @@ h1 {
 
 .divider {
     width: 5px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.navLogo2 {
+    font-style: normal;
+    color: black;
+    font-size: large;
+    padding-left: 1%;
+}
+
+.navMenu2 {
+    color: black;
+    display: flex;
+    cursor: pointer;
+    padding-right: 1%;
+    word-spacing: 10px;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    display: flex;
+    color: black;
+    padding: 20px;
+}
+
+.image2 {
+    margin: 40px 20px;
+    display: flex;
+}
+
+.description {
+    display: flex;
+    font-family: sans-serif;
+    font-size: larger;
+    color: black;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 40px 90px;
+    text-align: center;
+}
+
+.info {
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.info2 {
+    color: rgb(87, 85, 85);
+    padding: 30px;
+    font-size: medium;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
 }
